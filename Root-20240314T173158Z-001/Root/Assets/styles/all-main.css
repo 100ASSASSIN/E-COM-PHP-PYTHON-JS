@@ -1,0 +1,16 @@
+@font-face {
+  font-family: "myfont";
+  src: url(font.ttf);
+}
+html,
+body {
+  background-color: white;
+}
+#test {
+  color: white;
+}
+.check {
+  font-weight: 300;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: white;
+}
