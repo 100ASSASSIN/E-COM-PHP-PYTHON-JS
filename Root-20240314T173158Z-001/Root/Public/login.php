@@ -20,7 +20,7 @@
         <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
         <!-- External CSS -->
         <link rel="stylesheet" href="css/style.css" type="text/css">
-    </head>
+    </head> 
     <body>
         <div>
             
