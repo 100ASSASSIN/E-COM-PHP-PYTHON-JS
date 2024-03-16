@@ -4,4 +4,4 @@ def factorial(number):
     else:
         return number * factorial(number - 1)
 
-# Output: 120
+# Output: 120 ff
