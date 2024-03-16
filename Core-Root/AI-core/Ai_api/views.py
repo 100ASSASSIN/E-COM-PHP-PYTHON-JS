@@ -18,7 +18,7 @@ def api(request):
 
 def page1(request):
     content = "This is Page 1"
-    return render(request, 'page.html', {'content': content})
+    return render(request, 'Ai_api/page.html', {'content': content})
 
 def page2(request):
     content = "This is Page 2"
