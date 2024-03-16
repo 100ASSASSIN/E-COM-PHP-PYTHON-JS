@@ -1,7 +1,7 @@
-
 from django.db import models
 
 class User(models.Model):
-    name = models.CharField(max_length=100)
+    name_01 = models.CharField(max_length=100)
     email = models.EmailField()
-    # Add other fields as needed
+    password = models.CharField(max_length=100)  # You might consider using a more secure method for storing passwords
+    contact = models.CharField(max_length=100)

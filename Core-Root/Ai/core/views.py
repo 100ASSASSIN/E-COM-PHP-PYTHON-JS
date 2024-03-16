@@ -11,6 +11,7 @@ def members(request):
 def LINK(request):
   template = loader.get_template('check.html')
   return HttpResponse(template.render())
+
 def view_table_values(request):
     # Retrieve data from the User model
     users = User.objects.all()
