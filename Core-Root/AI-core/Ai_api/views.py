@@ -2,7 +2,7 @@ from django.shortcuts import render
 from django.http import JsonResponse
 from core import *
 # Assuming 'new' is a variable you want to include in your response
-new = "game hello"
+new = "ASSASSIN"
 def core(request):
     data = {"response": response}
 
