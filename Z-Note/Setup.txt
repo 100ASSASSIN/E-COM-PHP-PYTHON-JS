@@ -1,0 +1,14 @@
+step 1 = install django and react 
+
+step 2 = npm install
+
+step 3 = python manage.py runserver
+
+step 4 = npm start
+
+step 5 = open
+
+step 6 = list of  find components and 
+
+1- restFramwork.
+2- node - axios. 
