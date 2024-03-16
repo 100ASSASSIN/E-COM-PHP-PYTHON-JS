@@ -1,8 +1,14 @@
 from django.shortcuts import render
-from django.http import HttpResponse
+from django.http import JsonResponse
+from core import *
+# Assuming 'new' is a variable you want to include in your response
+new = "game hello"
+def core(request):
+    data = {"response": response}
 
-new = game hello 
+    return JsonResponse(response)
 def api(request):
-    return HttpResponse({new})
-
-    
+    # Create a dictionary to be returned as JSON
+    data = {"new": new}
+    # Use JsonResponse to automatically convert your dictionary to JSON format
+    return JsonResponse(data)
