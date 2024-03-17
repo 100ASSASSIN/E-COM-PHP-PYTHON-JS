@@ -10,7 +10,7 @@ const MyComponent = () => {
     const fetchData = async () => {
       try {
         // Make a GET request using Axios
-        const response = await axios.get('https://api.example.com/data');
+        const response = await axios.get('https://www.w3schools.com/django/django_urls.php');
         // Set the fetched data to the state
         setData(response.data);
         setIsLoading(false);
