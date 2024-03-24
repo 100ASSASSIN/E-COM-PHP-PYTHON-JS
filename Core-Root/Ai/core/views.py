@@ -8,6 +8,7 @@ from django.template import loader
 def members(request):
   template = loader.get_template('index.html')
   return HttpResponse(template.render())
+
 def LINK(request):
   template = loader.get_template('check.html')
   return HttpResponse(template.render())
