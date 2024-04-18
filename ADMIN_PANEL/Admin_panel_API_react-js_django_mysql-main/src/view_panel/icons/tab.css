@@ -1,0 +1,153 @@
+#tab{
+    height: 200px;
+    
+}
+#fd{
+    border-radius: 2px;
+    
+}
+.flex{
+    padding: 20px;
+    width: 600px;
+    height: 300px;
+}
+/* Scrollbar Track */
+/* Scrollbar Track */
+::-webkit-scrollbar-track {
+    background-color: #f1f1f1; /* Light gray background */
+  }
+  
+  /* Scrollbar Handle */
+  ::-webkit-scrollbar-thumb {
+    background-color: #888; /* Dark gray scrollbar handle */
+    border-radius: 10px; /* Rounded corners */
+  }
+  
+  /* Scrollbar Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #555; /* Darker gray on hover */
+  }
+ 
+  .button-with-background {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+#newr{
+  padding: 10px;
+  padding-top: 0px;
+  font-size: small;
+  width: 1450px;
+  height: 100px;
+  border-radius: 10px;
+}
+#ord{
+  padding: 20px;
+  font-size: small;
+  width: 1350px;
+  height: 200px;
+  border-radius: 2px;
+}
+#log{
+color: #007bff;
+padding-right: 300px;
+width: 100%;
+}
+
+#loog{
+  position: absolute;
+  right: 450px;
+  width: 400px;
+}
+#Uploade{
+  position: absolute;
+  bottom: 100px;
+  left: 450px;
+  width: 500PX;
+}
+#bar22{
+  color: #007bff;
+  padding-right: 300px;
+  width: 100%;
+  }
+  .upload-form {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+
+}
+
+.form-label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 8px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+.upload-button {
+    width: 100%;
+    padding: 10px;
+    border-radius: 3px;
+    border: none;
+    background: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+.file-label {
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+ 
+}
+
+.file-input {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.button-text {
+  font-size: x-small;
+  display: inline-block;
+  padding: 10px 10px;
+  background-color: black;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Optional hover effect */
+.button-text:hover {
+  background-color: #0056b3; /* Darker shade of blue */
+}
+#tip{
+  position: absolute;
+  top: 85px;
+  padding-left: 920px;
+}
+#back{
+  position: absolute;
+  top: -120px;
+  left: 800px;
+  width: 150px;
+}
